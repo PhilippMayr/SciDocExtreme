@@ -1,11 +1,15 @@
 # SciDocExtreme
 Benchmark AI models for scientific document processing using a large, cross-domain, richly annotated corpus, evaluating performance across multiple downstream tasks and annotation layers.
 
-SciDocExtreme – A Large-Scale Cross-Domain Dataset for AI-Driven Scientific Document Processing and Scientific Knowledge Extraction is a DFG-funded project led by Georg Rehm (DFKI) and Philipp Mayr (GESIS). 
 
 ## Description
+SciDocExtreme – A Large-Scale Cross-Domain Dataset for AI-Driven Scientific Document Processing and Scientific Knowledge Extraction is a DFG-funded project led by Georg Rehm (DFKI) and Philipp Mayr (GESIS). 
 
+The SciDocExtreme project aims to create a large-scale, cross-domain dataset of richly annotated scientific publications to advance AI-driven scientific document processing and downstream applications, such as automatic summarisation, scientific question answering (QA) and information extraction. Building on extensive prior experience in dataset creation, DFKI and GESIS will curate and release a corpus of 7,000 annotated full-text English scholarly articles spanning multiple disciplines and annotation layers, including metadata, document structure, entities, multimodal elements, citation contexts, and document-external references. 
+The dataset will be constructed from open-access sources such as ACL Anthology [1] and PubMed [2], with attention to domain and disciplinary diversity to reduce bias in scientific coverage. Annotations will be produced through a hybrid pipeline combining automated methods with human-in-the-loop validation, supported by clear annotation guidelines, inter-annotator agreement protocols, and continuous quality monitoring. The resulting dataset will be published using a permissive license in structured, machine-readable formats (e. g., TEI-XML, JSON), benchmarked against existing resources, and evaluated using established metrics across annotation layers. Baseline AI models will be developed to demonstrate the potential of the corpus.
+In line with the FAIR [3] and CARE [4] principles, the dataset will be published through national and European infrastructures such as NFDI, i. e., NFDI4DataScience [5], and the Common European Language Data Space [PR1], ensuring long-term availability and interoperability. The corpus will be released incrementally and versioned, with long-term maintenance through institutional hosting at GESIS and DFKI. 
+SciDocExtreme is designed not only as a high-quality corpus for model training, but also as an open-source shared community resource, with regular releases, shared tasks, and active engagement with the scholarly document processing and research data communities. Use cases include scientific claim verification, QA, citation intent classification, and scientific knowledge graph construction, tasks which current manually annotated or validated corpora (e. g., SciERC [6], SciGen [7]) cannot support due to their limited scope, scale, or annotation depth. By aggregating multiple annotation layers across a large, diverse document set, SciDocExtreme will enable the development of more robust and generalisable AI methods for scientific knowledge extraction and reasoning.
 
-## Funding number 
-575581817
+## Funding 
+German Research Foundation (Deutsche Forschungsgemeinschaft), Project number: 575581817
 
