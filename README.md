@@ -12,5 +12,6 @@ SciDocExtreme is designed not only as a high-quality corpus for model training, 
 
 ## Funding 
 German Research Foundation (Deutsche Forschungsgemeinschaft), Project number: 575581817
-Full list of funded project at DFG: https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2026/ifw-26-75
+
+Full list of funded projects at DFG: https://www.dfg.de/de/aktuelles/neuigkeiten-themen/info-wissenschaft/2026/ifw-26-75
 
